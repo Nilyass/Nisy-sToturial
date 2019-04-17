@@ -3,9 +3,9 @@ var bot = new Discord.Client();
 
 bot.on("ready", () => {
   console.log("You are connected to " + bot.guilds.size + " servers!");
-  bot.user.setGame("Subscroob,Like", "https://www.twitch.tv/monstercat")
+  bot.user.setGame("Moscow", "https://www.twitch.tv/monstercat")
 });
 
 
 
-bot.login('TOKEN HERE'); 
+bot.login('NTYzNzYxOTczNTQ0NzQ3MDA4.XLahRQ.5PD9w0eIavdyatgXxVDCcHHFO3Q'); 
